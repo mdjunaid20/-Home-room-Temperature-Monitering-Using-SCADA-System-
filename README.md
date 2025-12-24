@@ -43,4 +43,57 @@ It continuously monitors the room temperature and displays the readings in real-
 ---
 
 ## 📂 Project Structure
+Home-room-Temperature-Monitoring-SCADA-System
+│
+├── code
+│ ├── arduino_sensor.ino
+│ └── temperature_dashboard.py
+│
+├── diagrams
+│ └── system_architecture.png (optional)
+│
+├── reports
+│ └── Project_Report.pdf (optional)
+│
+└── README.md
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Upload Arduino Code
+Flash `arduino_sensor.ino` to your Arduino / ESP device.
+
+### 2️⃣ Install Python Libraries
+
+### 3️⃣ Run Dashboard
+
+The live dashboard graph will open and update continuously.
+
+---
+
+## ⚠️ Alert System (Example)
+- Below **18°C → Low temperature alert**
+- Above **30°C → High temperature alert**
+
+You can change these limits in the Python code.
+
+---
+
+## 🚀 Future Improvements
+- Cloud dashboard (ThingsBoard / Node-RED / MQTT)
+- Mobile App
+- Email / SMS alerts
+- Multi-room support
+
+---
+
+## 👤 Author
+**Junaid Mohammed**
+
+---
+
+## 📜 License
+This project is open-source — feel free to use and improve it.
+
 
